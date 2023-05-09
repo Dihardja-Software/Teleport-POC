@@ -13,7 +13,7 @@ const Rectangle1 = (props) => {
           className="rectangle1-rectangle1"
         />
         <span className="rectangle1-text">
-          how to use this teleport? Lorem ipsum dolor sit amet, consectetur
+          Hahahahahahah how to use this teleport? Lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Cras eget tellus iaculis, convallis nisl quis,
           iaculis ante. Phasellus eleifend pharetra rutrum. Nam in eros
           eleifend, convallis velit vel, mollis est. Integer varius eu enim ac
