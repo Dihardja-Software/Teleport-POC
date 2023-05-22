@@ -10,7 +10,7 @@ const Header = (props) => {
       <header data-thq="thq-navbar" className="header-navbar-interactive">
         <img
           alt={props.pastedImage_alt41}
-          src={props.pastedImage_src41}
+          src="/playground_assets/header-logo-blue.png"
           className="header-pasted-image"
         />
         <div data-thq="thq-navbar-btn-group" className="header-btn-group"></div>
@@ -33,16 +33,17 @@ const Header = (props) => {
             <div className="header-container1">
               <div className="header-container2">
                 <span className="header-text04">{props.text41}</span>
-                <img
-                  alt={props.pastedImage_alt51}
-                  src={props.pastedImage_src51}
-                  className="header-pasted-image1"
-                />
+                <svg viewBox="0 0 1024 1024" className="header-icon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                    className=""
+                  ></path>
+                </svg>
               </div>
               <img
                 alt={props.pastedImage_alt31}
-                src={props.pastedImage_src31}
-                className="header-pasted-image2"
+                src="/playground_assets/header-profile.png"
+                className="header-pasted-image1"
               />
             </div>
           </nav>

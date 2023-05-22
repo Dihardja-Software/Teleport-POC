@@ -12,7 +12,7 @@ const Footer = (props) => {
           <div className="footer-logo">
             <img
               alt={props.pastedImage_alt}
-              src={props.pastedImage_src}
+              src="/playground_assets/footer-logo-white.png"
               className="footer-pasted-image"
             />
           </div>
@@ -53,12 +53,12 @@ const Footer = (props) => {
                 <div className="footer-icon-group1">
                   <img
                     alt={props.pastedImage_alt1}
-                    src={props.pastedImage_src1}
+                    src="/playground_assets/footer-googleplay.png"
                     className="footer-pasted-image1"
                   />
                   <img
                     alt={props.pastedImage_alt2}
-                    src={props.pastedImage_src2}
+                    src="/playground_assets/footer-appstore.png"
                     className="footer-pasted-image2"
                   />
                 </div>

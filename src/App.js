@@ -12,7 +12,7 @@ const Home = (props) => {
         <div className="home-container01">
           <img
             alt="pastedImage"
-            src="/playground_assets/pastedimage-db1k-200w.png"
+            src="/playground_assets/home-arrow-left.png"
             className="home-pasted-image"
           />
           <span className="home-text">
@@ -20,7 +20,7 @@ const Home = (props) => {
           </span>
           <img
             alt="pastedImage"
-            src="/playground_assets/pastedimage-vyvf-1500h.png"
+            src="/playground_assets/home-arrow-right.png"
             className="home-pasted-image1"
           />
         </div>
@@ -30,7 +30,7 @@ const Home = (props) => {
           <div className="home-container03">
             <img
               alt="pastedImage"
-              src="/playground_assets/pastedimage-nq7g-1200w.png"
+              src="/playground_assets/home-living-world.png"
               className="home-pasted-image2"
             />
           </div>
@@ -79,7 +79,7 @@ const Home = (props) => {
           <div className="home-container10">
             <img
               alt="pastedImage"
-              src="/playground_assets/pastedimage-c0uc-1200w.png"
+              src="/playground_assets/home-live-card.png"
               className="home-pasted-image3"
             />
           </div>
@@ -136,7 +136,7 @@ const Home = (props) => {
           <div className="home-container16">
             <img
               alt="pastedImage"
-              src="/playground_assets/pastedimage-fcui-600h.png"
+              src="/playground_assets/home-cta-mobile.png"
               className="home-pasted-image4"
             />
           </div>
