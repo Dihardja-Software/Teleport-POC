@@ -1,13 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import Header from './header'
-import Footer from './footer'
-import './home.css'
-import './style.css'
+import { Helmet } from "react-helmet";
+
+import Header from "./header";
+import Footer from "./footer";
+import "./home.css";
+import "./style.css";
 
 const Home = (props) => {
   return (
     <div className="home-container">
+      <Helmet>
+        <title>Discrete Frivolous Bee</title>
+        <meta property="og:title" content="Discrete Frivolous Bee" />
+      </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
       <div className="home-hero-image">
         <div className="home-container01">
@@ -145,7 +151,7 @@ const Home = (props) => {
       </div>
       <Footer></Footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
